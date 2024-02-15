@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Logo from '../assets/zospace-assets/logos/Logo.png';
 
 const meta = {
   title: '',
@@ -17,21 +18,21 @@ export default function Servicios() {
       </HelmetProvider>
       <>
         <section className='py-8 px-4 lg:px-10 bg-gray-800'>
-        <nav className='relative flex justify-between items-center'>
+          <nav className='relative flex justify-between items-center'>
             <a className='text-2xl text-white font-bold' href='#'>
               <img
-                className=' w-15'
+                className='h-7'
                 src={Logo}
                 alt=''
-                width='100'
+                width='auto'
               />
             </a>
             <div className='lg:hidden'>
               <button className='p-2 navbar-burger'>
                 <svg
-                  className='w-10 h-10'
-                  width={7}
-                  height={7}
+                  className='w-10 h-3'
+                  width={39}
+                  height={13}
                   viewBox='0 0 39 13'
                   fill='none'
                   xmlns='http://www.w3.org/2000/svg'
@@ -51,8 +52,8 @@ export default function Servicios() {
             <div className='hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2'>
               <ul className='flex items-center text-white space-x-10'>
                 <li>
-                  <a className='text-white font-bold text-lg' href='/quienessomos'>
-                    Quienes Somos?
+                  <a className='text-white font-bold text-lg' href='#'>
+                    Product
                   </a>
                 </li>
                 <span>
@@ -67,8 +68,8 @@ export default function Servicios() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='/portafolio'>
-                    Portafolio
+                  <a className='text-white font-bold text-lg' href='#'>
+                    Story
                   </a>
                 </li>
                 <span>
@@ -83,8 +84,8 @@ export default function Servicios() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='/servicios'>
-                    Servicios
+                  <a className='text-white font-bold text-lg' href='#'>
+                    Features
                   </a>
                 </li>
                 <span>
@@ -99,19 +100,18 @@ export default function Servicios() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='/contacto'>
-                    Contacto
+                  <a className='text-white font-bold text-lg' href='#'>
+                    Contact
                   </a>
                 </li>
               </ul>
             </div>
             <div className='hidden lg:block'>
               <a
-                className='inline-block px-12 py-4 text-white font-bold border rounded-full clasecualquiera'
+                className='inline-block px-12 py-4 text-white font-bold border border-gray-200 hover:border-white rounded-full'
                 href='#'
               >
-                {' '}
-                ¡ Cotizar Ahora !
+                Sign Up
               </a>
             </div>
           </nav>
