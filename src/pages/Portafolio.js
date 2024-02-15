@@ -17,21 +17,21 @@ export default function Portafolio() {
       </HelmetProvider>
       <>
         <section className='py-8 px-4 lg:px-10 bg-gray-800'>
-          <nav className='relative flex justify-between items-center'>
+        <nav className='relative flex justify-between items-center'>
             <a className='text-2xl text-white font-bold' href='#'>
               <img
-                className='h-7'
-                src='zospace-assets/logos/zospace-logo.svg'
+                className=' w-15'
+                src={Logo}
                 alt=''
-                width='auto'
+                width='100'
               />
             </a>
             <div className='lg:hidden'>
               <button className='p-2 navbar-burger'>
                 <svg
-                  className='w-10 h-3'
-                  width={39}
-                  height={13}
+                  className='w-10 h-10'
+                  width={7}
+                  height={7}
                   viewBox='0 0 39 13'
                   fill='none'
                   xmlns='http://www.w3.org/2000/svg'
@@ -51,8 +51,8 @@ export default function Portafolio() {
             <div className='hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2'>
               <ul className='flex items-center text-white space-x-10'>
                 <li>
-                  <a className='text-white font-bold text-lg' href='#'>
-                    Product
+                  <a className='text-white font-bold text-lg' href='/quienessomos'>
+                    Quienes Somos?
                   </a>
                 </li>
                 <span>
@@ -67,8 +67,8 @@ export default function Portafolio() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='#'>
-                    Story
+                  <a className='text-white font-bold text-lg' href='/portafolio'>
+                    Portafolio
                   </a>
                 </li>
                 <span>
@@ -83,8 +83,8 @@ export default function Portafolio() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='#'>
-                    Features
+                  <a className='text-white font-bold text-lg' href='/servicios'>
+                    Servicios
                   </a>
                 </li>
                 <span>
@@ -99,18 +99,19 @@ export default function Portafolio() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='#'>
-                    Contact
+                  <a className='text-white font-bold text-lg' href='/contacto'>
+                    Contacto
                   </a>
                 </li>
               </ul>
             </div>
             <div className='hidden lg:block'>
               <a
-                className='inline-block px-12 py-4 text-white font-bold border border-gray-200 hover:border-white rounded-full'
+                className='inline-block px-12 py-4 text-white font-bold border rounded-full clasecualquiera'
                 href='#'
               >
-                Sign Up
+                {' '}
+                ¡ Cotizar Ahora !
               </a>
             </div>
           </nav>
