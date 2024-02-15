@@ -56,7 +56,7 @@ export default function Index() {
             <div className='hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2'>
               <ul className='flex items-center text-white space-x-10'>
                 <li>
-                  <a className='text-white font-bold text-lg' href='#'>
+                  <a className='text-white font-bold text-lg' href='/quienessomos'>
                     Quienes Somos?
                   </a>
                 </li>
@@ -72,7 +72,7 @@ export default function Index() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='#'>
+                  <a className='text-white font-bold text-lg' href='/portafolio'>
                     Portafolio
                   </a>
                 </li>
@@ -88,7 +88,7 @@ export default function Index() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='#'>
+                  <a className='text-white font-bold text-lg' href='/servicios'>
                     Servicios
                   </a>
                 </li>
@@ -104,7 +104,7 @@ export default function Index() {
                   </svg>
                 </span>
                 <li>
-                  <a className='text-white font-bold text-lg' href='#'>
+                  <a className='text-white font-bold text-lg' href='/contacto'>
                     Contacto
                   </a>
                 </li>
