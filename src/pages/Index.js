@@ -5,6 +5,7 @@ import Footer from '../assets/FooterImg.png';
 import Tiktok from '../assets/zospace-assets/logos/tiktokLogo.svg';
 import Facebook from '../assets/zospace-assets/logos/FacebookLogo.svg';
 import Instagram from '../assets/zospace-assets/logos/InstagramLogo.svg';
+import FrontImage from  '../assets/zospace-assets/images/servicio-de-manejo-de-redes-sociales-arequipa.png'
 
 const meta = {
   title: '',
@@ -214,7 +215,7 @@ export default function Index() {
               <div className='w-full lg:w-1/2 px-4'>
                 <img
                   className='w-full'
-                  src='images/brochure-sugerido.png'
+                  src={FrontImage}
                   alt=''
                 />
               </div>
