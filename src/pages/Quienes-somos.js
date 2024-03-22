@@ -18,8 +18,9 @@ export default function QuieneSomos() {
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
       <>
+      <NavBar />
         <section className='py-8 px-4 lg:px-10 bg-gray-800'>
-          <NavBar />
+          
           <div className='hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50'>
             <div className='navbar-backdrop fixed inset-0 bg-gray-800 opacity-80' />
             <nav className='relative flex flex-col py-8 h-full w-full bg-white overflow-y-auto'>

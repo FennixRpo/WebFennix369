@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/static/js/main.199021d2.js",
+    "static/media/servicio-de-manejo-de-redes-sociales-arequipa.png": "/static/media/servicio-de-manejo-de-redes-sociales-arequipa.762d08a2fa34ff7d2a86.png",
+    "static/media/FooterImg.png": "/static/media/FooterImg.4f2e2b7d016c75c3b354.png",
+    "static/media/Logo.png": "/static/media/Logo.ebf341629cc75e50a6f1.png",
+    "static/media/InstagramLogo.svg": "/static/media/InstagramLogo.dd078cc440f9ecfc4e56cf2673e52be0.svg",
+    "index.html": "/index.html",
+    "static/media/tiktokLogo.svg": "/static/media/tiktokLogo.944cc6588290031f6c9cb96b6693dcd3.svg",
+    "static/media/FacebookLogo.svg": "/static/media/FacebookLogo.643a174fa9a1d13af77840dd445db3fb.svg",
+    "main.199021d2.js.map": "/static/js/main.199021d2.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.199021d2.js"
+  ]
+}
