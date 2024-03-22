@@ -1,11 +1,11 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import Logo from '../assets/zospace-assets/logos/Logo.png';
 import Footer from '../assets/FooterImg.png';
 import Tiktok from '../assets/zospace-assets/logos/tiktokLogo.svg';
 import Facebook from '../assets/zospace-assets/logos/FacebookLogo.svg';
 import Instagram from '../assets/zospace-assets/logos/InstagramLogo.svg';
 import FrontImage from  '../assets/zospace-assets/images/servicio-de-manejo-de-redes-sociales-arequipa.png'
+import  NavBar  from '../components/NavBar';
 
 const meta = {
   title: '',
@@ -22,105 +22,9 @@ export default function Index() {
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
       <>
+      <NavBar />
         <section className='py-8 px-4 lg:px-10 bg-gray-800'>
-          <nav className='relative flex justify-between items-center'>
-            <a className='text-2xl text-white font-bold' href='#'>
-              <img
-                className=' w-15'
-                src={Logo}
-                alt=''
-                width='100'
-              />
-            </a>
-            <div className='lg:hidden'>
-              <button className='p-2 navbar-burger'>
-                <svg
-                  className='w-10 h-10'
-                  width={7}
-                  height={7}
-                  viewBox='0 0 39 13'
-                  fill='none'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <rect width={39} height={2} rx={1} fill='#C4C4C4' />
-                  <rect
-                    x={19}
-                    y={11}
-                    width={20}
-                    height={2}
-                    rx={1}
-                    fill='#C4C4C4'
-                  />
-                </svg>
-              </button>
-            </div>
-            <div className='hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2'>
-              <ul className='flex items-center text-white space-x-10'>
-                <li>
-                  <a className='text-white font-bold text-lg' href='/quienessomos'>
-                    Quienes Somos?
-                  </a>
-                </li>
-                <span>
-                  <svg
-                    width={5}
-                    height={5}
-                    viewBox='0 0 5 5'
-                    fill='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <circle cx='2.5' cy='2.5' r='2.5' fill='#726B6B' />
-                  </svg>
-                </span>
-                <li>
-                  <a className='text-white font-bold text-lg' href='/portafolio'>
-                    Portafolio
-                  </a>
-                </li>
-                <span>
-                  <svg
-                    width={5}
-                    height={5}
-                    viewBox='0 0 5 5'
-                    fill='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <circle cx='2.5' cy='2.5' r='2.5' fill='#726B6B' />
-                  </svg>
-                </span>
-                <li>
-                  <a className='text-white font-bold text-lg' href='/servicios'>
-                    Servicios
-                  </a>
-                </li>
-                <span>
-                  <svg
-                    width={5}
-                    height={5}
-                    viewBox='0 0 5 5'
-                    fill='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <circle cx='2.5' cy='2.5' r='2.5' fill='#726B6B' />
-                  </svg>
-                </span>
-                <li>
-                  <a className='text-white font-bold text-lg' href='/contacto'>
-                    Contacto
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='hidden lg:block'>
-              <a
-                className='inline-block px-12 py-4 text-white font-bold border rounded-full clasecualquiera'
-                href='#'
-              >
-                {' '}
-                ¡ Cotizar Ahora !
-              </a>
-            </div>
-          </nav>
+          
           <div className='hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50'>
             <div className='navbar-backdrop fixed inset-0 bg-gray-800 opacity-80' />
             <nav className='relative flex flex-col py-8 h-full w-full bg-white overflow-y-auto'>

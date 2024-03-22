@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 import IndexPage from './pages/Index.js';
-import QuienesSomosPage from './pages/Quienes-somos.js';
+import QuienesSomosPage from './pages/quienes-somos.js';
 import PortafolioPage from './pages/Portafolio.js';
 import ServiciosPage from './pages/Servicios.js';
 import ContactoPage from './pages/Contacto.js';
@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<IndexPage />} />
          
-      <Route path="/quienessomos" element={<QuienesSomosPage />} />
+      <Route path="/quienes-somos" element={<QuienesSomosPage />} />
          
       <Route path="/portafolio" element={<PortafolioPage />} />
          
